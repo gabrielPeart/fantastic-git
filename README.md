@@ -77,5 +77,86 @@ git remote rename old new
 Branch
 --
 
+### List all branches
+
+```
+git branch
+```
+
+### Create a branch
+
+- [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
+Create the branch on your local machine and switch in this branch
+
+```
+git checkout -b branch_name
+```
+
+### Create branch from commit
+
+- [Branch from a previous commit using git](http://stackoverflow.com/a/2816728/1418457)
+
+```
+git branch branch_name sha1_of_commit
+```
+
+### Push the branch to remote
+
+```
+git push origin branch_name
+```
+
+### Rename local branch
+
+- [How do you rename the local branch?](http://stackoverflow.com/a/6591218/1418457)
+
+Rename other branch
+
+```
+git branch -m old new
+```
+
+Rename current branch
+
+```
+git branch -m new
+```
+
+### Rename remote branch
+
+- [Rename master branch for both local and remote Git repositories](http://stackoverflow.com/a/16220970/1418457)
+
+```
+git branch -m old new                # Rename branch locally    
+git push origin :old                 # Delete the old branch    
+git push --set-upstream origin new   # Push the new branch, set local branch to track the new remote
+```
+
 Commit
 --
+
+### Undo last commit
+
+- [How do you undo the last commit?](http://stackoverflow.com/a/6866485/1418457)
+
+```
+git reset --hard HEAD~1
+```
+
+### Squash last n commits into one commit
+
+- [Squash my last X commits together using Git](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
+
+```
+
+```
+
+Checkout
+--
+
+### Checkout a tag
+
+### Checkout a branch
+
+### Checkout a commit
