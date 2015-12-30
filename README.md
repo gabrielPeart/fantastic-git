@@ -181,6 +181,12 @@ git checkout -b newbranchname tagname
 git checkout destination_branch
 ```
 
+Use -m if there is merge conflict
+
+```
+git checkout -m master // from feature branch to master
+```
+
 ### Checkout a commit
 
 ```
@@ -193,4 +199,40 @@ git checkout -b newbranchname HEAD~4
 
 ```
 git checkout -b newbranchname commit_hash
+```
+
+Stash
+--
+
+- [6.3 Git Tools - Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
+
+### Stash
+
+```
+git stash save "stash name"
+```
+
+```
+git stash
+```
+
+### List all stashes
+
+```
+git stash list
+```
+
+### Apply a stash
+
+
+```
+git stash pop
+```
+
+```
+git stash apply
+```
+
+```
+git stash apply stash@{2}
 ```
