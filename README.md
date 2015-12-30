@@ -9,4 +9,8 @@ Useful git commands
 git push --delete origin tagname
 ```
 
+```
+git push origin :tagname
+```
+
 ### 
