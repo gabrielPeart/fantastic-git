@@ -56,3 +56,26 @@ git push origin :refs/tags/<tagname>
 git tag -fa tagname
 git push origin master --tags
 ```
+
+Remote
+--
+
+### List all remote
+
+```
+git remote
+```
+
+### Rename remote
+
+- [Renaming a remote](https://help.github.com/articles/renaming-a-remote/)
+
+```
+git remote rename old new
+```
+
+Branch
+--
+
+Commit
+--
