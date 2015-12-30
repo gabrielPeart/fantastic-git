@@ -264,7 +264,22 @@ git add foo/bar.java
 ```
 
 - [Resolve Git merge conflicts in favor of their changes during a pull](http://stackoverflow.com/questions/10697463/resolve-git-merge-conflicts-in-favor-of-their-changes-during-a-pull)
+- [Is there a “theirs” version of “git merge -s ours”?](http://stackoverflow.com/questions/173919/is-there-a-theirs-version-of-git-merge-s-ours)
 
 ```
 git pull -X theirs
+```
+
+```
+git checkout --theirs path/to/the/conflicted_file.php
+```
+
+```
+git checkout --theirs .
+git add .
+```
+
+```
+git checkout branchA
+git merge -X theirs branchB
 ```
