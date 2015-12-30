@@ -162,6 +162,22 @@ git commit
 git rebase -i <after-this-commit> // commit X+1 i.e. parent of the oldest commit you want to squash.
 ```
 
+### Pick
+
+- [CHERRY-PICKING EXPLAINED](http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html)
+
+```
+git cherry-pick hash_commit_A hash_commit_B
+```
+
+### Reflog
+
+Show reflog
+
+```
+git reflog
+```
+
 Checkout
 --
 
@@ -235,4 +251,14 @@ git stash apply
 
 ```
 git stash apply stash@{2}
+```
+
+Misc
+--
+
+- [How to get “their” changes in the middle of conflicting Git rebase?](http://stackoverflow.com/questions/8146289/how-to-get-their-changes-in-the-middle-of-conflicting-git-rebase)
+
+```
+git checkout --ours foo/bar.java
+git add foo/bar.java
 ```
