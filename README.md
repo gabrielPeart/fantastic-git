@@ -262,3 +262,9 @@ Misc
 git checkout --ours foo/bar.java
 git add foo/bar.java
 ```
+
+- [Resolve Git merge conflicts in favor of their changes during a pull](http://stackoverflow.com/questions/10697463/resolve-git-merge-conflicts-in-favor-of-their-changes-during-a-pull)
+
+```
+git pull -X theirs
+```
