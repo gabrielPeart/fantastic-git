@@ -148,8 +148,18 @@ git reset --hard HEAD~1
 
 - [Squash my last X commits together using Git](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
 
+Do the squashing on a separate branch
+```
+git checkout -b squashed_feature
 ```
 
+```
+git reset --soft HEAD~3 &&
+git commit
+```
+
+```
+git rebase -i <after-this-commit> // commit X+1 i.e. parent of the oldest commit you want to squash.
 ```
 
 Checkout
@@ -157,6 +167,30 @@ Checkout
 
 ### Checkout a tag
 
+```
+git checkout tagname
+```
+
+```
+git checkout -b newbranchname tagname
+```
+
 ### Checkout a branch
 
+```
+git checkout destination_branch
+```
+
 ### Checkout a commit
+
+```
+git checkout commit_hash
+```
+
+```
+git checkout -b newbranchname HEAD~4
+```
+
+```
+git checkout -b newbranchname commit_hash
+```
