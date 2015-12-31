@@ -253,6 +253,13 @@ git stash apply
 git stash apply stash@{2}
 ```
 
+Rebase
+--
+
+```
+git rebase base // rebase the current branch onto base
+```
+
 Misc
 --
 
