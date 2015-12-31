@@ -184,10 +184,23 @@ git cherry-pick hash_commit_A hash_commit_B
 
 ### Reflog
 
+- [git-reflog](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog)
+- [Use “git reflog” and “git cherry-pick” to restore lost commits](http://www.ocpsoft.org/tutorials/git/use-reflog-and-cherry-pick-to-restore-lost-commits/)
+
 Show reflog
 
 ```
 git reflog
+```
+
+Get commit
+
+```
+git reset --hard 0254ea7
+```
+
+```
+git cherry-pick 12944d8
 ```
 
 ### Amend
