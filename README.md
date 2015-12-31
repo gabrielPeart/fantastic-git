@@ -317,6 +317,19 @@ Rebase
 git rebase base // rebase the current branch onto base
 ```
 
+.gitignore
+--
+
+## Untrack 
+
+- [Making git “forget” about a file that was tracked but is now in .gitignore](http://stackoverflow.com/a/19095988/1418457)
+
+```
+git rm -r --cached . 
+git add .
+git commit -am "Remove ignored files"
+```
+
 Misc
 --
 
