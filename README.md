@@ -330,6 +330,33 @@ git add .
 git commit -am "Remove ignored files"
 ```
 
+Index
+==
+
+### Remove untracked files
+
+```
+git clean
+```
+
+### Remove file from index
+
+```
+git reset file
+```
+
+### Reset the index to match the most recent commit
+
+```
+git reset
+```
+
+### Reset the index and the working directory to match the most recent commit
+
+```
+git reset --hard
+```
+
 Misc :ghost:
 ==
 
