@@ -2,12 +2,12 @@
 Useful git commands
 
 Resources
---
+==
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 
 Tag
---
+==
 
 ### List all tags
 
@@ -63,7 +63,7 @@ git push origin master --tags
 ```
 
 Remote
---
+==
 
 ### List all remote
 
@@ -80,7 +80,7 @@ git remote rename old new
 ```
 
 Branch
---
+==
 
 ### List all branches
 
@@ -151,7 +151,7 @@ git push origin :the_remote_branch
 ```
 
 Commit
---
+==
 
 ### Undo last commit
 
@@ -232,7 +232,7 @@ git push --force <repository> <branch>
 ```
 
 Checkout
---
+==
 
 ### Checkout a tag
 
@@ -275,7 +275,7 @@ git checkout commit_hash file
 ```
 
 Stash
---
+==
 
 - [6.3 Git Tools - Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
 
@@ -311,14 +311,14 @@ git stash apply stash@{2}
 ```
 
 Rebase
---
+==
 
 ```
 git rebase base // rebase the current branch onto base
 ```
 
 .gitignore
---
+==
 
 ## Untrack 
 
@@ -331,7 +331,7 @@ git commit -am "Remove ignored files"
 ```
 
 Misc
---
+==
 
 - [How to get “their” changes in the middle of conflicting Git rebase?](http://stackoverflow.com/questions/8146289/how-to-get-their-changes-in-the-middle-of-conflicting-git-rebase)
 
