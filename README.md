@@ -178,6 +178,25 @@ Show reflog
 git reflog
 ```
 
+### Amend
+
+- [Edit an incorrect commit message in Git](http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git)
+
+```
+git commit --amend
+```
+
+```
+git commit --amend -m "New commit message"
+```
+
+- [Changing git commit message after push](http://stackoverflow.com/questions/8981194/changing-git-commit-message-after-push-given-that-no-one-pulled-from-remote)
+
+```
+git commit --amend -m "New commit message"
+git push --force <repository> <branch>
+```
+
 Checkout
 --
 
