@@ -270,6 +270,10 @@ git checkout -b newbranchname HEAD~4
 git checkout -b newbranchname commit_hash
 ```
 
+```
+git checkout commit_hash file
+```
+
 Stash
 --
 
