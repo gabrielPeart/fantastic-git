@@ -330,7 +330,7 @@ git add .
 git commit -am "Remove ignored files"
 ```
 
-Index
+Index :card_index:
 ==
 
 ### Remove untracked files
