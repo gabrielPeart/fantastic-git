@@ -187,6 +187,10 @@ git commit --amend
 ```
 
 ```
+git commit --amend --no-edit
+```
+
+```
 git commit --amend -m "New commit message"
 ```
 
