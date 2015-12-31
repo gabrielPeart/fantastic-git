@@ -1,12 +1,12 @@
 # git-commands
 Useful git commands
 
-Resources
+Resources :notebook_with_decorative_cover:
 ==
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 
-Tag
+Tag :1234:
 ==
 
 ### List all tags
@@ -62,7 +62,7 @@ git tag -fa tagname
 git push origin master --tags
 ```
 
-Remote
+Remote :cloud:
 ==
 
 ### List all remote
@@ -79,7 +79,7 @@ git remote
 git remote rename old new
 ```
 
-Branch
+Branch :tanabata_tree:
 ==
 
 ### List all branches
@@ -150,7 +150,7 @@ git branch -D the_local_branch
 git push origin :the_remote_branch
 ```
 
-Commit
+Commit :pencil2:
 ==
 
 ### Undo last commit
@@ -231,7 +231,7 @@ git commit --amend -m "New commit message"
 git push --force <repository> <branch>
 ```
 
-Checkout
+Checkout :checkered_flag:
 ==
 
 ### Checkout a tag
@@ -274,7 +274,7 @@ git checkout -b newbranchname commit_hash
 git checkout commit_hash file
 ```
 
-Stash
+Stash :package:
 ==
 
 - [6.3 Git Tools - Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
@@ -310,14 +310,14 @@ git stash apply
 git stash apply stash@{2}
 ```
 
-Rebase
+Rebase :wind_chime:
 ==
 
 ```
 git rebase base // rebase the current branch onto base
 ```
 
-.gitignore
+.gitignore :honey_pot:
 ==
 
 ## Untrack 
@@ -330,7 +330,7 @@ git add .
 git commit -am "Remove ignored files"
 ```
 
-Misc
+Misc :ghost:
 ==
 
 - [How to get “their” changes in the middle of conflicting Git rebase?](http://stackoverflow.com/questions/8146289/how-to-get-their-changes-in-the-middle-of-conflicting-git-rebase)
