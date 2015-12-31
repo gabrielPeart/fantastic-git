@@ -133,6 +133,18 @@ git push origin :old                 # Delete the old branch
 git push --set-upstream origin new   # Push the new branch, set local branch to track the new remote
 ```
 
+### Delete a branch
+
+- [Delete a Git branch both locally and remotely](http://stackoverflow.com/a/10999165/1418457)
+
+```
+git branch -D the_local_branch
+```
+
+```
+git push origin :the_remote_branch
+```
+
 Commit
 --
 
