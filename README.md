@@ -5,6 +5,7 @@ Resources :notebook_with_decorative_cover:
 ==
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+- [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
 
 Tag :1234:
 ==
