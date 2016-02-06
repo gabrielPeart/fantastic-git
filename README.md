@@ -6,6 +6,13 @@ Resources :notebook_with_decorative_cover:
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
+- [Learn Enough Git to Be Dangerous](http://www.learnenough.com/git-tutorial)
+- [Git Workflows for Pros: A Good Git Guide](http://www.toptal.com/git/git-workflows-for-pros-a-good-git-guide)
+- [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+- [git-game](https://github.com/git-game/git-game)
+- [Introduction to Git - talk by Scott Chacon](https://www.youtube.com/watch?v=xbLVvrb2-fY)
+- [Git Tutorial – Git Fu With The Command Line](http://www.raywenderlich.com/74258/git-tutorial-intermediate)
+- [Git Immersion](http://gitimmersion.com/)
 
 Tag :1234:
 ==
