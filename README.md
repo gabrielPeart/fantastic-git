@@ -106,6 +106,7 @@ Create the branch on your local machine and switch in this branch
 git checkout -b branch_name
 ```
 
+
 ### Create branch from commit
 
 - [Branch from a previous commit using git](http://stackoverflow.com/a/2816728/1418457)
@@ -214,6 +215,16 @@ git reset --hard 0254ea7
 
 ```
 git cherry-pick 12944d8
+```
+
+Revert
+==
+
+- [Revert previous commits](http://stackoverflow.com/a/21718540/1418457)
+
+```
+git revert --no-commit 0766c053..HEAD
+git commit
 ```
 
 ### Amend
