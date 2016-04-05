@@ -1,8 +1,6 @@
-# git-commands
-Useful git commands
+# fantastic-git
 
-Resources :notebook_with_decorative_cover:
-==
+# Resources :notebook_with_decorative_cover:
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
@@ -14,22 +12,21 @@ Resources :notebook_with_decorative_cover:
 - [Git Tutorial – Git Fu With The Command Line](http://www.raywenderlich.com/74258/git-tutorial-intermediate)
 - [Git Immersion](http://gitimmersion.com/)
 
-Tag :1234:
-==
+# Tag :1234:
 
-### List all tags
+#### List all tags
 
 ```
 git tag
 ```
 
-### Tag a commit
+#### Tag a commit
 
 ```
 git tag -a v1.4 -m "my version 1.4"
 ```
 
-### Delete remote tags
+#### Delete remote tags
 
 - [How to delete a remote tag?](http://stackoverflow.com/a/5480292/1418457)
 
@@ -41,7 +38,7 @@ git push --delete origin tagname
 git push origin :tagname
 ```
 
-### Push tag to remote
+#### Push tag to remote
 
 - [Push a tag to a remote repository using Git?](http://stackoverflow.com/a/5195913/1418457)
 
@@ -49,7 +46,7 @@ git push origin :tagname
 git push origin tagname
 ```
 
-### Rename tag
+#### Rename tag
 
 - [How do you rename a Git tag?](http://stackoverflow.com/a/5719854/1418457)
 
@@ -60,7 +57,7 @@ git push origin :refs/tags/old
 git push --tags
 ```
 
-### Move tag from one commit to another commit
+#### Move tag from one commit to another commit
 
 - [How can I move a tag on a git branch to a different commit?](http://stackoverflow.com/a/8044605/1418457)
 
@@ -70,16 +67,15 @@ git tag -fa tagname
 git push origin master --tags
 ```
 
-Remote :cloud:
-==
+# Remote :cloud:
 
-### List all remote
+#### List all remote
 
 ```
 git remote
 ```
 
-### Rename remote
+#### Rename remote
 
 - [Renaming a remote](https://help.github.com/articles/renaming-a-remote/)
 
@@ -87,16 +83,15 @@ git remote
 git remote rename old new
 ```
 
-Branch :tanabata_tree:
-==
+# Branch :tanabata_tree:
 
-### List all branches
+#### List all branches
 
 ```
 git branch
 ```
 
-### Create a branch
+#### Create a branch
 
 - [Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)
 
@@ -107,7 +102,7 @@ git checkout -b branch_name
 ```
 
 
-### Create branch from commit
+#### Create branch from commit
 
 - [Branch from a previous commit using git](http://stackoverflow.com/a/2816728/1418457)
 
@@ -115,13 +110,13 @@ git checkout -b branch_name
 git branch branch_name sha1_of_commit
 ```
 
-### Push the branch to remote
+#### Push the branch to remote
 
 ```
 git push origin branch_name
 ```
 
-### Rename local branch
+#### Rename local branch
 
 - [How do you rename the local branch?](http://stackoverflow.com/a/6591218/1418457)
 
@@ -137,7 +132,7 @@ Rename current branch
 git branch -m new
 ```
 
-### Rename remote branch
+#### Rename remote branch
 
 - [Rename master branch for both local and remote Git repositories](http://stackoverflow.com/a/16220970/1418457)
 
@@ -147,7 +142,7 @@ git push origin :old                 # Delete the old branch
 git push --set-upstream origin new   # Push the new branch, set local branch to track the new remote
 ```
 
-### Delete a branch
+#### Delete a branch
 
 - [Delete a Git branch both locally and remotely](http://stackoverflow.com/a/10999165/1418457)
 
@@ -159,10 +154,9 @@ git branch -D the_local_branch
 git push origin :the_remote_branch
 ```
 
-Commit :pencil2:
-==
+# Commit :pencil2:
 
-### Undo last commit
+#### Undo last commit
 
 - [How do you undo the last commit?](http://stackoverflow.com/a/6866485/1418457)
 
@@ -170,7 +164,7 @@ Commit :pencil2:
 git reset --hard HEAD~1
 ```
 
-### Squash last n commits into one commit
+#### Squash last n commits into one commit
 
 - [Squash my last X commits together using Git](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
 
@@ -188,9 +182,9 @@ git commit
 git rebase -i <after-this-commit> // commit X+1 i.e. parent of the oldest commit you want to squash.
 ```
 
-### Move last commits into new branch
+#### Move last commits into new branch
 
-http://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
+- [Move the most recent commit(s) to a new branch with Git](http://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git)
 
 ```
 git branch newbranch
@@ -198,7 +192,7 @@ git reset --hard HEAD~3 # Go back 3 commits. You *will* lose uncommitted work.*1
 git checkout newbranch
 ```
 
-### Pick
+#### Pick
 
 - [CHERRY-PICKING EXPLAINED](http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html)
 
@@ -206,18 +200,19 @@ git checkout newbranch
 git cherry-pick hash_commit_A hash_commit_B
 ```
 
-### Reflog
+# Reflog
 
 - [git-reflog](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog)
 - [Use “git reflog” and “git cherry-pick” to restore lost commits](http://www.ocpsoft.org/tutorials/git/use-reflog-and-cherry-pick-to-restore-lost-commits/)
 
-Show reflog
+
+#### Show reflog
 
 ```
 git reflog
 ```
 
-Get commit
+#### Get commit
 
 ```
 git reset --hard 0254ea7
@@ -227,8 +222,7 @@ git reset --hard 0254ea7
 git cherry-pick 12944d8
 ```
 
-Revert
-==
+# Revert
 
 - [Revert previous commits](http://stackoverflow.com/a/21718540/1418457)
 
@@ -237,7 +231,7 @@ git revert --no-commit 0766c053..HEAD
 git commit
 ```
 
-### Amend
+#### Amend
 
 - [Edit an incorrect commit message in Git](http://stackoverflow.com/questions/179123/edit-an-incorrect-commit-message-in-git)
 
@@ -260,10 +254,9 @@ git commit --amend -m "New commit message"
 git push --force <repository> <branch>
 ```
 
-Checkout :checkered_flag:
-==
+# Checkout :checkered_flag:
 
-### Checkout a tag
+#### Checkout a tag
 
 ```
 git checkout tagname
@@ -273,7 +266,7 @@ git checkout tagname
 git checkout -b newbranchname tagname
 ```
 
-### Checkout a branch
+#### Checkout a branch
 
 ```
 git checkout destination_branch
@@ -285,7 +278,7 @@ Use -m if there is merge conflict
 git checkout -m master // from feature branch to master
 ```
 
-### Checkout a commit
+#### Checkout a commit
 
 ```
 git checkout commit_hash
@@ -303,12 +296,11 @@ git checkout -b newbranchname commit_hash
 git checkout commit_hash file
 ```
 
-Stash :package:
-==
+# Stash :package:
 
 - [6.3 Git Tools - Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
 
-### Stash
+#### Stash
 
 ```
 git stash save "stash name"
@@ -318,13 +310,13 @@ git stash save "stash name"
 git stash
 ```
 
-### List all stashes
+#### List all stashes
 
 ```
 git stash list
 ```
 
-### Apply a stash
+#### Apply a stash
 
 
 ```
@@ -339,55 +331,54 @@ git stash apply
 git stash apply stash@{2}
 ```
 
-Rebase :wind_chime:
-==
+# Rebase :wind_chime:
 
+#### rebase
 ```
 git rebase base // rebase the current branch onto base
 ```
 
-.gitignore :honey_pot:
-==
+# .gitignore :honey_pot:
 
-## Untrack 
+#### Untrack
 
 - [Making git “forget” about a file that was tracked but is now in .gitignore](http://stackoverflow.com/a/19095988/1418457)
 
 ```
-git rm -r --cached . 
+git rm -r --cached .
 git add .
 git commit -am "Remove ignored files"
 ```
 
-Index :card_index:
-==
+# Index :card_index:
 
-### Remove untracked files
+#### Remove untracked files
 
 ```
 git clean
 ```
 
-### Remove file from index
+#### Remove file from index
 
 ```
 git reset file
 ```
 
-### Reset the index to match the most recent commit
+#### Reset the index to match the most recent commit
 
 ```
 git reset
 ```
 
-### Reset the index and the working directory to match the most recent commit
+#### Reset the index and the working directory to match the most recent commit
 
 ```
 git reset --hard
 ```
 
-Misc :ghost:
-==
+# Misc :ghost:
+
+#### Conflicting git rebase
 
 - [How to get “their” changes in the middle of conflicting Git rebase?](http://stackoverflow.com/questions/8146289/how-to-get-their-changes-in-the-middle-of-conflicting-git-rebase)
 
@@ -396,7 +387,12 @@ git checkout --ours foo/bar.java
 git add foo/bar.java
 ```
 
+#### Resolve git merge conflict
+
 - [Resolve Git merge conflicts in favor of their changes during a pull](http://stackoverflow.com/questions/10697463/resolve-git-merge-conflicts-in-favor-of-their-changes-during-a-pull)
+
+#### theirs
+
 - [Is there a “theirs” version of “git merge -s ours”?](http://stackoverflow.com/questions/173919/is-there-a-theirs-version-of-git-merge-s-ours)
 
 ```
