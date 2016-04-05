@@ -188,6 +188,10 @@ git commit
 git rebase -i <after-this-commit> // commit X+1 i.e. parent of the oldest commit you want to squash.
 ```
 
+### Move last commits into new branch
+
+http://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
+
 ### Pick
 
 - [CHERRY-PICKING EXPLAINED](http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html)
