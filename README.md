@@ -1,6 +1,6 @@
 # fantastic-git
 
-Contents
+# Contents
 
 - [Resources :notebook_with_decorative_cover:](#resources-notebookwithdecorativecover)
 - [Tag :1234:](#tag-1234)
