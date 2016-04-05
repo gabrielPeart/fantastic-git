@@ -1,5 +1,21 @@
 # fantastic-git
 
+Contents
+
+- [Resources :notebook_with_decorative_cover:](#resources-notebookwithdecorativecover)
+- [Tag :1234:](#tag-1234)
+- [Remote :cloud:](#remote-cloud)
+- [Branch :tanabata_tree:](#branch-tanabatatree)
+- [Commit :pencil2:](#commit-pencil2)
+- [Reflog](#reflog)
+- [Revert](#revert)
+- [Checkout :checkered_flag:](#checkout-checkeredflag)
+- [Stash :package:](#stash-package)
+- [Rebase :wind_chime:](#rebase-windchime)
+- [.gitignore :honey_pot:](#gitignore-honeypot)
+- [Index :card_index:](#index-cardindex)
+- [Misc :ghost:](#misc-ghost)
+
 # Resources :notebook_with_decorative_cover:
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
