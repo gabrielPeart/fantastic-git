@@ -192,6 +192,12 @@ git rebase -i <after-this-commit> // commit X+1 i.e. parent of the oldest commit
 
 http://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
 
+```
+git branch newbranch
+git reset --hard HEAD~3 # Go back 3 commits. You *will* lose uncommitted work.*1
+git checkout newbranch
+```
+
 ### Pick
 
 - [CHERRY-PICKING EXPLAINED](http://think-like-a-git.net/sections/rebase-from-the-ground-up/cherry-picking-explained.html)
