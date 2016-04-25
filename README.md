@@ -184,18 +184,15 @@ git reset --hard HEAD~1
 
 - [Squash my last X commits together using Git](http://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git)
 
-Do the squashing on a separate branch
 ```
-git checkout -b squashed_feature
-```
-
-```
-git reset --soft HEAD~3 &&
-git commit
+git rebase -i HEAD~5
 ```
 
 ```
-git rebase -i <after-this-commit> // commit X+1 i.e. parent of the oldest commit you want to squash.
+git reset --soft HEAD~5
+git add .
+git commit -m "Update"
+git push -f origin master
 ```
 
 #### Move last commits into new branch
