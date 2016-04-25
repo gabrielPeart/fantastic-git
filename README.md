@@ -1,22 +1,30 @@
-# fantastic-git
+fantastic-git
+==
 
-# Contents
+Contents
+==
 
-- [Resources :notebook_with_decorative_cover:](#resources-notebookwithdecorativecover)
-- [Tag :1234:](#tag-1234)
-- [Remote :cloud:](#remote-cloud)
-- [Branch :tanabata_tree:](#branch-tanabatatree)
-- [Commit :pencil2:](#commit-pencil2)
-- [Reflog](#reflog)
-- [Revert](#revert)
-- [Checkout :checkered_flag:](#checkout-checkeredflag)
-- [Stash :package:](#stash-package)
-- [Rebase :wind_chime:](#rebase-windchime)
-- [.gitignore :honey_pot:](#gitignore-honeypot)
-- [Index :card_index:](#index-cardindex)
-- [Misc :ghost:](#misc-ghost)
+<!-- TOC depthFrom:1 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-# Resources :notebook_with_decorative_cover:
+- [Reading :notebook_with_decorative_cover:](#reading-notebookwithdecorativecover)
+- [Repos](#repos)
+- [Commands](#commands)
+	- [Tag :1234:](#tag-1234)
+	- [Remote :cloud:](#remote-cloud)
+	- [Branch :tanabata_tree:](#branch-tanabatatree)
+	- [Commit :pencil2:](#commit-pencil2)
+	- [Reflog](#reflog)
+	- [Revert](#revert)
+	- [Checkout :checkered_flag:](#checkout-checkeredflag)
+	- [Stash :package:](#stash-package)
+	- [Rebase :wind_chime:](#rebase-windchime)
+	- [.gitignore :honey_pot:](#gitignore-honeypot)
+	- [Index :card_index:](#index-cardindex)
+	- [Misc :ghost:](#misc-ghost)
+
+<!-- /TOC -->
+
+# Reading :notebook_with_decorative_cover:
 
 - [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
@@ -28,7 +36,14 @@
 - [Git Tutorial – Git Fu With The Command Line](http://www.raywenderlich.com/74258/git-tutorial-intermediate)
 - [Git Immersion](http://gitimmersion.com/)
 
-# Tag :1234:
+# Repos
+
+- [gitflow](https://github.com/nvie/gitflow) Git extensions to provide high-level repository operations for Vincent Driessen's branching model
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) Good-lookin' diffs with diff-highlight and more
+
+# Commands
+
+## Tag :1234:
 
 #### List all tags
 
@@ -83,7 +98,7 @@ git tag -fa tagname
 git push origin master --tags
 ```
 
-# Remote :cloud:
+## Remote :cloud:
 
 #### List all remote
 
@@ -99,7 +114,7 @@ git remote
 git remote rename old new
 ```
 
-# Branch :tanabata_tree:
+## Branch :tanabata_tree:
 
 #### List all branches
 
@@ -170,7 +185,7 @@ git branch -D the_local_branch
 git push origin :the_remote_branch
 ```
 
-# Commit :pencil2:
+## Commit :pencil2:
 
 #### Undo last commit
 
@@ -213,7 +228,7 @@ git checkout newbranch
 git cherry-pick hash_commit_A hash_commit_B
 ```
 
-# Reflog
+## Reflog
 
 - [git-reflog](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog)
 - [Use “git reflog” and “git cherry-pick” to restore lost commits](http://www.ocpsoft.org/tutorials/git/use-reflog-and-cherry-pick-to-restore-lost-commits/)
@@ -235,7 +250,7 @@ git reset --hard 0254ea7
 git cherry-pick 12944d8
 ```
 
-# Revert
+## Revert
 
 - [Revert previous commits](http://stackoverflow.com/a/21718540/1418457)
 
@@ -267,7 +282,7 @@ git commit --amend -m "New commit message"
 git push --force <repository> <branch>
 ```
 
-# Checkout :checkered_flag:
+## Checkout :checkered_flag:
 
 #### Checkout a tag
 
@@ -309,7 +324,7 @@ git checkout -b newbranchname commit_hash
 git checkout commit_hash file
 ```
 
-# Stash :package:
+## Stash :package:
 
 - [6.3 Git Tools - Stashing](https://git-scm.com/book/en/v1/Git-Tools-Stashing)
 
@@ -344,14 +359,14 @@ git stash apply
 git stash apply stash@{2}
 ```
 
-# Rebase :wind_chime:
+## Rebase :wind_chime:
 
 #### rebase
 ```
 git rebase base // rebase the current branch onto base
 ```
 
-# .gitignore :honey_pot:
+## .gitignore :honey_pot:
 
 #### Untrack
 
@@ -363,7 +378,7 @@ git add .
 git commit -am "Remove ignored files"
 ```
 
-# Index :card_index:
+## Index :card_index:
 
 #### Remove untracked files
 
@@ -389,7 +404,7 @@ git reset
 git reset --hard
 ```
 
-# Misc :ghost:
+## Misc :ghost:
 
 #### Conflicting git rebase
 
