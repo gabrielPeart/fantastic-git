@@ -1,6 +1,8 @@
 fantastic-git
 ==
 
+![](Screenshots/Banner.png)
+
 Contents
 ==
 
