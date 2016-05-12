@@ -442,3 +442,12 @@ git add .
 git checkout branchA
 git merge -X theirs branchB
 ```
+
+#### Merge from master into feature branch after push
+
+- [Git merge master into feature branch](http://stackoverflow.com/a/16957483/1418457)
+
+```
+git checkout feature1
+git merge --no-ff master
+```
