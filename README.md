@@ -49,6 +49,7 @@ Contents
 - [twitter-for-github](https://github.com/bevacqua/twitter-for-github) Twitter handles for GitHub
 - [octotree](https://github.com/buunguyen/octotree) Code tree for GitHub and GitLab
 - [isometric-contributions](https://github.com/jasonlong/isometric-contributions) Render an isometric pixel art version of your contribution graph in Chrome and Safari.
+- [github-s3](https://github.com/hyperoslo/github-s3) Shell scripts that make it really easy to archive and restore repositories between GitHub and AWS S3
 
 # Commands
 
