@@ -10,6 +10,7 @@ Contents
 
 - [Reading :notebook_with_decorative_cover:](#reading-notebookwithdecorativecover)
 - [Repos](#repos)
+- [GitHub](#github)
 - [Commands](#commands)
 	- [Tag :1234:](#tag-1234)
 	- [Remote :cloud:](#remote-cloud)
@@ -42,6 +43,12 @@ Contents
 
 - [gitflow](https://github.com/nvie/gitflow) Git extensions to provide high-level repository operations for Vincent Driessen's branching model
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) Good-lookin' diffs with diff-highlight and more
+
+# GitHub
+
+- [twitter-for-github](https://github.com/bevacqua/twitter-for-github) Twitter handles for GitHub
+- [octotree](https://github.com/buunguyen/octotree) Code tree for GitHub and GitLab
+- [isometric-contributions](https://github.com/jasonlong/isometric-contributions) Render an isometric pixel art version of your contribution graph in Chrome and Safari.
 
 # Commands
 
